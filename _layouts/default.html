@@ -20,7 +20,7 @@
         <a href="{{ '/' | absolute_url }}">
           <h1>{{ Robert Sanders Personal Site }}</h1>
         </a>
-        <h2>{{ site.description | Robert Sanders }}</h2>
+        <h2>{{ site.description | default: Robert Sanders }}</h2>
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
