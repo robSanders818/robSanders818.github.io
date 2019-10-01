@@ -14,7 +14,8 @@
 <body>
   <header class="page-header" role="banner">
     <div class="inner">
-        <use xlink:href="http://robsanders.me/"><h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1></use>
+
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">
         {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -33,7 +34,7 @@
       {% endif %}
       <span class="site-footer-credits">This page was created by Robert Sanders using Github Pages.</span>
     </footer>
-  </main> 
+  </main>
 
   <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101213032);</script>
   <script async src="//static.getclicky.com/js"></script>
