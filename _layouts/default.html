@@ -14,7 +14,7 @@
 <body>
   <header class="page-header" role="banner">
     <div class="inner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}<use xlink:href="http://robsanders.me/"></use></h1>
+        <use xlink:href="http://robsanders.me/"><h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1></use>
       <h2 class="project-tagline">
         {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
