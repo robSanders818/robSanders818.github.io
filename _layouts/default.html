@@ -49,11 +49,8 @@ body {
   margin-left: 50px;
 }
 
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
+div.static {
+  position: static;
 }
 
 @media screen and (max-height: 450px) {
@@ -76,7 +73,7 @@ div.fixed {
     </div>
   </header>
 
-  <div id="mySidenav" class="sidenav" class="fixed">
+  <div id="mySidenav" class="sidenav static">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="\index">Home</a>
       <a href="\about">About</a>
