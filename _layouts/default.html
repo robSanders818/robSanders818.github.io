@@ -18,8 +18,7 @@ body {
 .sidenav {
   height: 100%;
   width: 0;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   z-index: 1;
   top: 200;
   left: 0;
@@ -76,7 +75,7 @@ div.sticky {
     </div>
   </header>
 
-  <div id="mySidenav" class="sidenav">
+  <div id="mySidenav" class="sidenav sticky">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="\index">Home</a>
       <a href="\about">About</a>
