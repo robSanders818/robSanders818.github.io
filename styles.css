@@ -37,3 +37,16 @@ div.sticky {
   position: sticky;
   top: 0;
 }
+
+.image-caption {
+    text-align: center;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.img-frame {
+    width: 200px;
+    background: #fff;
+    padding: 18px 18px 2px 18px;
+    border: 1px solid #999;
+}
