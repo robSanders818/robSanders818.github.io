@@ -44,15 +44,17 @@ body {
       <a href="\portfolio">Portfolio</a>
     </div>
     
-    <span style="font-size:30px;cursor:pointer; padding-left: 3%;" onclick="openNav()"><font size="+3">  View Menu</font> &#9776;</span>
+    <span style="font-size:30px;cursor:pointer; padding-left: 3%" onclick="openNav()"><font size="+3">  View Menu</font> &#9776;</span>
     
     <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("mySidenav").style.paddingLeft = "3%";
     }
     
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("mySidenav").style.paddingLeft = "0%";
     }
     </script>
 
