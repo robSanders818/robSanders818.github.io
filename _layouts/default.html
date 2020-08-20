@@ -15,46 +15,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: absolute;
-  z-index: 1;
-  top: 200;
-  left: 0;
-  background-color: rgb(21,129,111);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #f1f1f1;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: rgb(21,98,144);
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -71,7 +31,7 @@ div.sticky {
         {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       <a href="https://www.linkedin.com/in/robert-sanders516" class="btn">Connect on LinkedIn</a>
-      <a href="mailto:sanders.rob@husky.neu.edu" class="btn">Email</a>
+      <a href="mailto:sanders.rob@northeastern.edu" class="btn">Email</a>
     </div>
   </header>
 
@@ -103,7 +63,7 @@ div.sticky {
       <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>
         is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
       {% endif %}
-      <span class="site-footer-credits">This page was created by Robert Sanders using Github Pages.</span>
+      <span class="site-footer-credits">This page was created by Robert Sanders</span>
     </footer>
   </main>
 
