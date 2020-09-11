@@ -25,11 +25,14 @@ title: Robert Sanders
       , and am really excited to explore my options!
     </font>
   </p>
-  <div id='test_react'></div>
+  <div class='test-react'></div>
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <script src="test_react.js"></script>
-  <script src="./bundle.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel" src="test_react.js"></script>
+  <script type="text/babel">
+    ReactDom.render(<TestReact />, document.querySelector('.test-react'))
+  </script>
 </body>
 
 </html>
