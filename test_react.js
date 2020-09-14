@@ -1,8 +1,3 @@
-'use strict';
-import ReactDOM from 'react-dom'
-import React from 'react'
-const e = React.createElement;
-
 class TestReact extends React.Component {
     constructor(props) {
         super(props);
