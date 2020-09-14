@@ -6,7 +6,7 @@ class TestReact extends React.Component {
     
     render() {
         return <div>
-            Hello World
+            Hello World!
         </div>
           
     }
