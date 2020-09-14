@@ -5,7 +5,7 @@ title: Robert Sanders
 
 <html>
 
-<head>
+<body>
   <h1 id="header-1">
     <font size="+5">Hi there, I'm Robert Sanders!</font>
   </h1>
@@ -26,16 +26,14 @@ title: Robert Sanders
     </font>
   </p>
   <div class='test-react'></div>
-</head>
-
-<body>
-  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  <script type="text/babel" src="test_react.js"></script>
-  <script type="text/babel">
-    ReactDom.render(<TestReact />, document.querySelector('.test-react'))
-  </script>
 </body>
+
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel" src="test_react.js"></script>
+<script type="text/babel">
+  ReactDom.render(<TestReact />, document.querySelector('.test-react'))
+</script>
 
 </html>
