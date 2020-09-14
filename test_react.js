@@ -5,9 +5,9 @@ class TestReact extends React.Component {
     }
     
     render() {
-        return <h2>
+        return <div>
             Hello World
-        </h2>
+        </div>
           
     }
 }
