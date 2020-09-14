@@ -26,14 +26,13 @@ title: Robert Sanders
     </font>
   </p>
   <div class='test-react'></div>
+  <script src="https://unpkg.com/react@16/umd/react.production.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel" src="test_react.js"></script>
+  <script type="text/babel">
+    ReactDom.render(<TestReact />, document.querySelector('.test-react'))
+  </script>
 </body>
-
-<script src="https://unpkg.com/react@16/umd/react.production.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<script type="text/babel" src="test_react.js"></script>
-<script type="text/babel">
-  ReactDom.render(<TestReact />, document.querySelector('.test-react'))
-</script>
 
 </html>
