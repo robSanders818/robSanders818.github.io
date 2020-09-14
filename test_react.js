@@ -11,6 +11,3 @@ class TestReact extends React.Component {
           
     }
 }
-
-const domContainer = document.querySelector('#like_button_container');
-ReactDOM.render(e(TestReact), domContainer);
