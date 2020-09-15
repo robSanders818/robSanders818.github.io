@@ -1,17 +1,14 @@
 class IndexPage extends React.Component {
     render() {
         return <div>
-            <h1 style={{fontSize: 18}}>
+            <h1 style={{fontSize: 50}}>
                 Hi there, I'm Robert Sanders!
             </h1>
-            <p style={{fontSize: 14}}>
-                <div dangerouslySetInnerHTML={{__html: bioMainText}} />;
-            </p>
-            <h2 style={{fontSize: 16}}>
-                <p>
-                    <div dangerouslySetInnerHTML={{__html: bioSubText}} />;
-                </p>
+            <div style={{fontSize: 25}} dangerouslySetInnerHTML={{__html: bioMainText}} />
+            <h2 style={{fontSize: 40}}>
+                Current Professional Objectives
             </h2>
+            <div style={{fontSize: 25}}dangerouslySetInnerHTML={{__html: bioSubText}} />
         </div>          
     }
 }
