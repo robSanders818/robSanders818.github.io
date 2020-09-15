@@ -1,4 +1,4 @@
-class IndexPage extends react_import.Component {
+class IndexPage extends React.Component {
     render() {
         return <div>
             <h1 style={{fontSize: 18}}>
