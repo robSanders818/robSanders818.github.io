@@ -1,5 +1,7 @@
 import {bioMainText, bioSubText} from './constants'
-class IndexPage extends React.Component {
+import React from 'react-dom'
+
+export default class IndexPage extends React.Component {
     render() {
         return <div>
             <h1 style={{fontSize: 18}}>
@@ -16,4 +18,3 @@ class IndexPage extends React.Component {
         </div>          
     }
 }
-export default IndexPage;
