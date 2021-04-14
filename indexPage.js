@@ -13,9 +13,9 @@ class IndexPage extends React.Component {
     }
 }
 
-const bioMainText = 'I\'m a third year Computer Science Major attending Northeastern University. ' +
+const bioMainText = 'I\'m a Senior at Northeastern University studying Computer Science,' +
 'Click <a href="/about">here</a> to read more about me!'
 
-const bioSubText = 'I\'ve just finished up my first work experience with the Baltimore Orioles as ' +
-'a Software Developer Co-Op (click <a href="/portfolio">here</a> to see more about this).  Now I am looking ' +
-'for another Co-op for the January-June 2021 Cycle, and am really excited to explore my options!'
+const bioSubText = 'I am a current Python Developer Co-op for Morse Corp. starting in January 2021,' +
+    ' and in 2020, I was working with the Baltimore Orioles as ' +
+'a Software Developer Co-Op (click <a href="/portfolio">here</a> to see more about this)'
